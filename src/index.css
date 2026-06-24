@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply m-0 bg-navy font-body text-white antialiased;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(0, 212, 255, 0.1), transparent 32%),
+    radial-gradient(circle at 80% 10%, rgba(45, 212, 191, 0.1), transparent 30%),
+    linear-gradient(180deg, #0a1628, #081224);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 212, 255, 0.5) rgba(255, 255, 255, 0.08);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 212, 255, 0.45);
+  border-radius: 999px;
+}
+
+input[type='range'] {
+  accent-color: #00d4ff;
+}

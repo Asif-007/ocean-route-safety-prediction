@@ -1,0 +1,31 @@
+# Large dataset files
+bottle.csv
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+venv/
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Node / React
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated output images
+*.png
+cleaned_dataset.png
+df_ml_sample.png
+feature_dataset.png
+logistic_confusion_matrix.png
